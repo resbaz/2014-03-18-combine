@@ -2,7 +2,7 @@
 layout: bootcamp
 root: .
 venue: University of Melbourne
-address: Alan Gilbert Building, Theatre 4 (first week) and 3 (second week)
+address: <a href="http://maps.unimelb.edu.au/parkville/building/104#.Uw0fhPiLelM">Alan Gilbert Building</a>
 country: Australia
 humandate: Mar 18, 21, 26 & 28, 2014
 humantime: 9:00 am - 12:30 pm
@@ -35,7 +35,8 @@ contact: d.irving@student.unimelb.edu.au
   <a href="https://its.unimelb.edu.au/research">ITS Research Services</a> department, 
   <a href="https://github.com/resbaz/hackerwin">The Hacker Within</a> student group has 
   been running Software Carpentrty bootcamps at the University of Melbourne since 2013. 
-  For this particular bootcamp, we are teaming up with COMBINE to offer a four-day course 
+  For this particular bootcamp, we are teaming up with 
+  <a href="http://combine.org.au/">COMBINE</a> to offer a course 
   specifically for the computational biology and bioinformatics community.    
 </p>
 
@@ -47,34 +48,22 @@ contact: d.irving@student.unimelb.edu.au
 </p>
 {% endif %}
 
-<!--
-    Modify this block to reflect the target audience for your bootcamp.
-    In particular, if it is only open to people from a particular institution,
-    or if specialized prerequisite knowledge is required, please mention that.
--->
 <p>
   <strong>Who:</strong>
   The bootcamp is aimed at postgraduate students, post-docs and other researchers 
   in the Australian computational biology and bioinformatics community who have a basic  
   familiarity with programming concepts like loops, conditionals, and arrays, but need 
   help to translate this knowledge into practical tools to help them work more productively.
-  Participation is not restricted to only University of Melbourne people - we'd love to see
+  Participation is not restricted to University of Melbourne people - we'd love to see
   many institutions represented.
 </p>
 
-<!--
-    This block displays the address and links to a map showing directions.
--->
-{% if page.latlng %}
 <p>
   <strong>Where:</strong>
-  {{ page.address }}.
-  Get directions with
-  <a href="http://www.openstreetmap.org/?mlat={{ page.latlng | replace:',','&mlon=' }}&zoom=16">OpenStreetMap</a>
-  or
-  <a href="http://maps.google.com/maps?q={{ page.latlng }}">Google Maps</a>.
+  <a href="http://maps.unimelb.edu.au/parkville/building/104#.Uw0fhPiLelM">Alan Gilbert Building</a>, 
+  University of Melbourne. We are in Theatre 4 for this first week of the bootcamp and Theatre 3 for 
+  the second. 
 </p>
-{% endif %}
 
 <p>
   <strong>Requirements:</strong>
@@ -101,7 +90,9 @@ contact: d.irving@student.unimelb.edu.au
 <p>
   In order to accommodate as many people as possible, we are going to spread the
   content of the typical two-day bootcamp over four morning sessions. The following 
-  is an outline of what will be taught:
+  is an outline of what will be taught. During the bootcamp, additional notes on the 
+  teaching materials will be available at the bootcamp 
+  <a href"https://etherpad.mozilla.org/swc-combine">Etherpad</a>.
 </p>
 
 <p>
